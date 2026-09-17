@@ -42,9 +42,9 @@ function widgetDocument(widget: Widget) {
 }
 
 const suggestions = [
-  { icon: Umbrella, label: 'Will I need an umbrella in Colombo tomorrow?' },
-  { icon: Sun, label: 'Best time for a walk in Galle this weekend?' },
-  { icon: Wind, label: 'How windy will it be in Jaffna today?' },
+  { icon: Umbrella, label: 'Will it rain in Toronto, Ontario this weekend?' },
+  { icon: Sun, label: 'Best time for a walk in New York today?' },
+  { icon: Wind, label: 'How cold will it feel in Montreal tomorrow?' },
 ];
 
 export function WeatherAgent() {
