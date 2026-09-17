@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "providers": {
+    "athena": {
+      "name": "Athena"
+    }
+  },
+  "resources": {
+    "My Weather Forecast Agent": {
+      "name": "My Weather Forecast Agent",
+      "providerName": "Athena",
+      "serviceId": "agents"
+    }
+  }
+}

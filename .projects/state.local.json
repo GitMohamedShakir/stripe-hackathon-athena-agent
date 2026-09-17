@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "project": {
+    "catalog": "prod",
+    "initializedAt": "2026-09-17T18:07:04.897Z",
+    "merchantDisplayName": "Elle Test Account ",
+    "merchantId": "acct_1UGNBa9tt0XxhUcS",
+    "projectId": "project_61VQ7fUSKTQmvevM116VPl8w9RSQlTTkizj3GgFGyW9w",
+    "projectName": "hackathon"
+  },
+  "providers": {
+    "athena": {
+      "accountRequestId": "fprvcnn_61VPlFBYolJ6JqCgq16VPl8w9RSQlTTkizj3GgFGyD7Q",
+      "configuration": {},
+      "linkedAt": "2026-09-16T18:10:25.719Z",
+      "providerId": "prvdr_61VNueP9cELmCU01Z5DFA",
+      "providerName": "Athena",
+      "redirectUrl": null,
+      "requestedAt": "2026-09-16T18:10:25.719Z",
+      "status": "complete",
+      "providerAccount": {
+        "id": "athena_pacct_ab6f9938fd765ae731f071df",
+        "display_name": "acct_1UGNBa9tt0XxhUcS",
+        "primary_email": "mohamed@ellechat.ai",
+        "link_action": "created"
+      }
+    }
+  },
+  "resources": {
+    "My Weather Forecast Agent": {
+      "configuration": {
+        "name": "My Weather Forecast Agent",
+        "instructions": "Always use the EarthPulse MCP for live weather, air quality, flood, natural-disaster, or outdoor-safety questions, and clearly state the latest risk level, data timestamps, and that it is not an official emergency alert.",
+        "connect_mcp": "yes",
+        "mcp_url": "https://weather-forecast-mcp.vercel.app/mcp",
+        "enable_image_generation": "no",
+        "enable_music_generation": "no",
+        "enable_live": "no",
+        "enable_coding": "no",
+        "enable_deep_research": "no",
+        "enable_google_maps": "no"
+      },
+      "createdAt": "2026-09-17T18:09:08.761Z",
+      "lastRevealedAt": "2026-09-17T18:09:09.395Z",
+      "lastStatus": "complete",
+      "name": "My Weather Forecast Agent",
+      "providerId": "prvdr_61VNueP9cELmCU01Z5DFA",
+      "providerName": "Athena",
+      "resourceId": "fres_61VQ7hS0jOSAEyxNF16VPl8w9RSQlTTkizj3GgFGyXom",
+      "serviceId": "agents"
+    }
+  }
+}
